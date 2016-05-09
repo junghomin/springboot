@@ -9,6 +9,6 @@ public class JunghoDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JunghoDemoApplication.class, args);
 
-		//test
+		//test2
 	}
 }

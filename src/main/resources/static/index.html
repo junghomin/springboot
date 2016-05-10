@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot</title>
+    <link type="text/css" rel="stylesheet" href="/webjars/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="main.css"/>
+
+    <script src="/webjars/react/0.13.3/react.min.js"></script>
+    <script src="/webjars/react/0.13.3/JSXTransformer.js"></script>
+</head>
+<body>
+Spring Boot View
+<script type="text/javascript" src="index.js"></script>
+
+<div><h1>Sign Up</h1></div>
+<form name="myForm">
+    UserName: <input type="text" name="username" /><br>
+    Password: <input type="text" name="password" /><br>
+    <button onclick="register(myForm.username.value, myForm.password.value)">Submit</button>
+</form>
+</body>
+</html>
